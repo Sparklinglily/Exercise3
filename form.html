@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FORMS</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <b>User Name: <b><input type="text" name="firstname" value="Enter username here" /> </b> <br>
+      <b>Password:</b>
+      <input type="password" name="pw" size="30" maxlength="10" value="enter passord here"/><br>
+      <fieldset width="30px">
+        <legend>Examples of checkboxes</legend>
+        <b>Ms Word:</b><input type="checkbox" name= "word" /><br>
+        <b>Ms Excel:</b><input type="checkbox" name= "excel" /><br>
+        <b>Ms Access:</b><input type="checkbox" name= "access" /><br>
+      
+      </fieldset>
+      <input type="submit" value="submit details"/>
+
+    </form>
+
+    <form action="registration.php" method="post">
+      <b>FirstName:</b>
+      <input type="text" name="firstname" size="30" maxlength="15" value=" Enter first name here"/><br/><br/>
+      <b>Surname Name:</b><input type="file" name ="surname" size="30" maxlength="15" value= "Enter Surname here"/><br/><br/>
+      <b>Address:</b><input type="text" name="address" size="30" maxlength="15 value="Enter Adress here/>
+
+    </form>
+
+
+    <br>
+    <form enctype="multipart/form-data" method="post" action="registration.php" accept="image/gif.image/jpeg,image/jpg">
+      <b>FirstName:</b><input type="text" readonly name="firstname" size="30" maxlength="15" value=" Enter first name here"/><br/><br/>
+      <b>Surname Name:</b><input type="file" name ="surname" size="30" maxlength="15" value= "Enter Surname here"/><br/><br/>
+      <b>Address:</b>
+      <input disabled type="text" name="address" size="30" maxlength="15" value="Enter Adress here" />
+      <b>Select Passport</b><input type= "file" name="Passport" value="Select Passport"/><br></br>
+
+      <input type="checkbox"  name="morning" checked="checked"/>
+      <label>morning</label> <input type="checkbox" name= "morning"/>
+      <label>afternoon</label> <input type="checkbox" name= "afternoon"/>
+      <label>evening</label> <input type="checkbox" name= "evening"/><br></br>
+
+
+      
+      <label>morning</label> <input type="radio" name= "morning"/>
+      <label>afternoon</label> <input type="radio" name= "morning"/>
+      <label>evening</label> <input type="radio" name= "morning"/><br></br>
+
+      <input type="submit" name="submit" value="submit your form"/>
+
+    </form>
+
+    <textarea name= "" rows="20" col="20" >
+    
+
+    </textarea>
+
+    <a href="url">Text to be displayed</a>
+
+    
+
+
+
+
+  </body>
+</html>
